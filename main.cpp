@@ -18,7 +18,7 @@ enum class gameState{inGame, menu}currentState = gameState::inGame;
 #include "menu.h"
 int main(int argc, char **argv)
 {
-    if(argc > 1) //why are you passing arguments to this program if it doesn't support any?
+    if(argc > 1) //why are you passing arguments to this program if it doesn't support any? (jk easter eggs exist)
     {
         for(int i=1; i<argc; i++)
         {
